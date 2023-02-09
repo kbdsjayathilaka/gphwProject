@@ -1,0 +1,249 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.container2 {
+  width: 1000px;
+  margin: 0 auto;
+  
+  padding: 20px;
+}
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+form h1 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 36px;
+  color: #333;
+}
+
+form h1 a {
+  float: right;
+  font-size: 14px;
+  text-decoration: none;
+  color: #666;
+}
+
+form p {
+  margin: 10px 0;
+  padding: 0;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+form input[type=text],
+form input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+form input[type=text]:focus,
+form input[type=password]:focus {
+  border: 2px solid #555;
+}
+
+/*form button[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+form button[type=submit]:hover {
+  background-color: #45a049;
+}*/
+
+.info {
+  padding: 10px;
+   background-color:  #4CAF50;
+      color: #ffffff;
+        text-align: center;
+          border-radius: 15px;
+           font-size: 16px;
+}
+div.errmsg {
+  padding: 10px;
+  background-color: #ff6666;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header {
+  background-color: lightgray;
+  overflow: auto;
+  padding: 20px;
+  width: 960px;
+  margin:  auto;
+}
+
+header .appname {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+  margin:  0;
+  }
+
+header .loggedin {
+  font-weight: bold;
+  float: right;
+
+}
+* {
+  margin: 0;
+}
+
+main {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+main h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+
+
+table.masterlist {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.masterlist th {
+  background: #aaa;
+  text-align: left;
+}
+
+table.masterlist th, table.masterlist td {
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+form.userform label {
+  width: 30%;
+  float: left;
+}
+
+form.userform input {
+  width: 60%;
+}
+
+form.userform button {
+  width: 200px;
+}
+#myLink {
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+   background-color: lightblue;
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+#myLink:hover {
+   color: black;
+   font-weight: bold;
+   background-color: lightgreen;
+
+
+}
+#submitBtn {
+   background-color: lightblue;
+   color: white;
+   font-weight: bold;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+#submitBtn:hover {
+   background-color: lightgreen;
+   color: black;
+   font-weight: bold;
+}
+#cancelBtn {
+   background-color: orange;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+#cancelBtn:hover {
+   background-color: darkorange;
+    color: black;
+  font-weight: bold;
+}
+a.edit-link {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: green;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 0;
+  box-shadow: 2px 2px 5px gray;
+}
+
+a.delete-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px gray;
+}
